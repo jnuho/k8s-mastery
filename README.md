@@ -1,35 +1,10 @@
-# sentiment-analyzer-demo
+This repository contains the source files needed to follow the series [Kubernetes and everything else](https://rinormaloku.com/series/kubernetes-and-everything-else/) or summarized as an article in [Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)
 
-- This is a Kubernetes demo web application (MSA)
-  - I referred the following [guide](https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)
-  - The purpose of this demo is to become familiar with Kubernetes that implements MSA.
+To learn more about Kubernetes and other related topics check the following examples with the **Sentiment Analysis** application:
 
-- [Services](services)
-- [1. Application On local](1-application-on-local)
-- [2. Use Docker](2-use-docker)
-- [3. Use Kubernetes](3-use-kubernetes)
-
-### Services
-
-- SA-Frontend: a Nginx web server that serves our ReactJS static files.
-- SA-WebApp: a Java Web Application that handles requests from the frontend.
-- SA-Logic: a python application that performs Sentiment Analysis.
-
-
-### 1. Application On local
-
-```sh
-mkdir sa-frontend
-
-nodejs
-npm
-
-```
-
-### 2. Use Docker
-
-
-### 3. Use Kubernetes
-
-
-
+* [Kubernetes Volumes in Practice](https://rinormaloku.com/kubernetes-volumes-in-practice/):
+* [Ingress Controller - simplified routing in Kubernetes](https://www.orange-networks.com/blogs/210-ingress-controller-simplified-routing-in-kubernetes)
+* [Docker Compose in Practice](https://github.com/rinormaloku/k8s-mastery/tree/docker-compose)
+* [Istio around everything else series](https://rinormaloku.com/series/istio-around-everything-else/)
+* [Simple CI/CD for Kubernetes with Azure DevOps](https://www.orange-networks.com/blogs/224-azure-devops-ci-cd-pipeline-to-deploy-to-kubernetes)
+* Envoy series - to be added!
