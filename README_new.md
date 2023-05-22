@@ -19,11 +19,13 @@
 ### 1. Application On local
 
 ```sh
+sudo apt update
+sudp apt install npm
+
 mkdir sa-frontend
 
-nodejs
-npm
-
+npm install
+npm run build
 ```
 
 ### 2. Use Docker
